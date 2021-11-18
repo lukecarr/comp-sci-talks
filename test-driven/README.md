@@ -10,7 +10,7 @@ produce the following output:
 
 ```js
 {
-  input: "West Exe",
+  supplied: "West Exe",
   reversed: "exE tseW",
   length: 8,
   chars: {

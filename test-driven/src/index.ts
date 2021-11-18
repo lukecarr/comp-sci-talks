@@ -10,9 +10,9 @@ export function chars (str: string): { [char: string]: number } {
   return {}
 }
 
-export function transform (str: string): { input: string; reversed: string; length: number; chars: { [char: string]: number } } {
+export function transform (str: string): { supplied: string; reversed: string; length: number; chars: { [char: string]: number } } {
   return {
-    input: "",
+    supplied: "",
     reversed: "",
     length: 0,
     chars: {}
